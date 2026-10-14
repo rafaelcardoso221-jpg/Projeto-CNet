@@ -1,0 +1,14 @@
+# Ambientes e bytecode
+.venv/
+__pycache__/
+*.py[cod]
+.ruff_cache/
+# Logs locais podem conter coordenadas e dados da janela
+logs/
+# Saída de compilação/empacotamento, nunca versionar executáveis grandes
+build/
+dist/
+*.spec
+*.tmp
+# Configuração privada opcional: use --config config.local.ini
+config.local.ini

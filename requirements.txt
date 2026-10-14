@@ -1,0 +1,7 @@
+# Python 3.10+ / execução real em Windows. Dry-run usa apenas biblioteca padrão.
+PyAutoGUI==0.9.54
+pytesseract==0.3.13
+Pillow==11.3.0
+requests==2.32.5
+PyGetWindow==0.0.9
+pynput==1.8.1
