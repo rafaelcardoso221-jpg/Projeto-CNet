@@ -1,0 +1,10 @@
+ticker;empresa;setor;peso_alvo_pct;quantidade;preco_ref;preco_teto;valor_brl;peso_real_pct
+ITUB4;Itaú Unibanco;Bancos;16.0;15;49.22;50.20;738.30;14.77
+PETR4;Petrobras (PN);Petróleo e gás;12.0;10;57.86;59.02;578.60;11.57
+WEGE3;WEG;Bens de capital;10.0;10;48.39;49.36;483.90;9.68
+BBDC4;Bradesco (PN);Bancos;9.0;23;20.80;21.22;478.40;9.57
+ABEV3;Ambev;Bebidas;9.0;29;16.86;17.20;488.94;9.78
+SBSP3;Sabesp;Saneamento;9.0;14;32.81;33.47;459.34;9.19
+CPFE3;CPFL Energia;Energia elétrica;9.0;9;50.73;51.74;456.57;9.13
+PSSA3;Porto Seguro;Seguros;8.0;8;52.58;53.63;420.64;8.41
+TOTS3;TOTVS;Software;8.0;9;42.06;42.90;378.54;7.57

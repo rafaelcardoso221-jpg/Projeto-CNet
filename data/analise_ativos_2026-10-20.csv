@@ -1,0 +1,35 @@
+ticker;empresa;setor;preco_ref;pl;pvp;dy_pct;roe_pct;mkt_cap_bn;perf_2026_pct;max_52s;min_52s;decisao;motivo
+ITUB4;Itaú Unibanco;Bancos;49.22;11.33;2.54;6.5;22.4;528.2;23.86;50.85;36.64;INCLUIR;Melhor banco privado: ROE 22-24%, execução consistente, liquidez altíssima e DY 6,5%
+ITUB3;Itaú Unibanco (ON);Bancos;53.32;n/d;n/d;n/d;n/d;n/d;n/d;55.43;32.28;EXCLUIR;Mesma empresa do ITUB4, porém menos líquida e com prêmio de preço
+ITSA4;Itaúsa;Holding financeira;15.77;9.54;1.85;7.3;19.4;173.3;35.03;16.63;10.89;EXCLUIR;Duplicidade: ~85% do valor é Itaú; ótima para renda, mas redundante com ITUB4
+PETR4;Petrobras (PN);Petróleo e gás;57.86;5.60;1.55;6.3;27.7;747.5;98.33;59.68;29.47;INCLUIR;Muito barata (P/L 5,6; EV/EBITDA 3,3), DY alto e caixa forte; risco político é o preço
+PETR3;Petrobras (ON);Petróleo e gás;64.71;n/d;n/d;n/d;n/d;n/d;n/d;66.49;30.96;EXCLUIR;Mesma empresa do PETR4, menos líquida e mais cara
+B3SA3;B3;Infraestrutura financeira;23.54;21.30;6.07;4.1;28.5;113.5;70.19;24.28;12.30;EXCLUIR;Negócio excelente, mas P/L 21x e +70% no ano: o preço já embutiu a recuperação
+BBDC4;Bradesco (PN);Bancos;20.80;9.09;1.28;7.6;14.1;225.1;16.44;23.00;15.68;INCLUIR;Banco grande mais barato (P/VP 1,28), turnaround em curso e DY 7,6%
+BBDC3;Bradesco (ON);Bancos;18.29;n/d;n/d;n/d;n/d;n/d;n/d;20.24;13.86;EXCLUIR;Mesma empresa do BBDC4, com liquidez menor
+BPAC11;BTG Pactual;Bancos;81.68;16.74;3.83;1.8;22.9;304.6;50.72;84.58;46.14;EXCLUIR;Qualidade altíssima, mas P/VP 3,8 e +51% no ano; caro para 8% de peso
+BBSE3;BB Seguridade;Seguros;42.30;8.71;7.35;11.3;84.4;80.0;28.64;42.98;31.85;EXCLUIR;Ótima renda (DY 11%), mas crescimento baixo e dependência do canal BB/agro
+WEGE3;WEG;Bens de capital;48.39;31.99;10.61;4.2;33.2;200.1;-1.20;54.53;38.68;INCLUIR;Qualidade rara (ROE 33%, caixa líquido, ROIC 24%), receita em dólar e 11% abaixo da máxima
+ABEV3;Ambev;Bebidas;16.86;15.78;2.90;5.2;18.4;256.4;20.19;17.04;11.98;INCLUIR;Defensiva, caixa líquido, DY 5,2%, P/L 15,8 e volumes em recuperação
+SBSP3;Sabesp;Saneamento;32.81;14.11;2.51;2.1;17.8;113.5;21.41;35.32;23.17;INCLUIR;Crescimento contratado (capex ~R$20 bi/ano, metas 2029); execução de curto prazo pesa
+SAPR11;Sanepar (UNT);Saneamento;41.06;n/d;n/d;n/d;n/d;n/d;n/d;48.72;31.13;EXCLUIR;Estatal paranaense, baixa liquidez e governança; sem vantagem sobre SBSP3
+SAPR4;Sanepar (PN);Saneamento;7.98;n/d;n/d;n/d;n/d;n/d;n/d;9.23;6.17;EXCLUIR;Duplicidade da SAPR11 e liquidez baixa
+RDOR3;Rede D'Or;Saúde;44.76;20.14;4.68;9.9;23.3;97.1;8.03;48.41;32.27;EXCLUIR;Boa empresa, mas P/L 20x, dívida bruta de R$51 bi e DY inflado por evento pontual
+CMIG4;Cemig;Energia elétrica;11.86;7.23;1.14;8.8;15.7;33.2;9.68;13.87;9.87;EXCLUIR;Barata e com DY 8,8%, mas estatal mineira: risco político/regulatório e passivos judiciais
+CPFE3;CPFL Energia;Energia elétrica;50.73;9.48;2.51;7.6;26.4;56.9;0.07;57.21;39.79;INCLUIR;Privada, ROE 26%, DY 7,6% e EV/EBITDA 6,1; âncora de renda com baixo risco de governança
+TOTS3;TOTVS;Software;42.06;16.57;4.33;1.7;26.1;23.6;-1.85;48.40;26.76;INCLUIR;Receita 93% recorrente, ARR +14%, P/L 16,6 (o mais baixo em anos) e opcionalidade de IA
+TIMS3;TIM;Telecom;19.20;n/d;1.79;7.9;n/d;44.7;-10.22;28.74;17.85;EXCLUIR;Múltiplos distorcidos por evento societário e ação na mínima de 52 semanas; incerteza alta
+PSSA3;Porto Seguro;Seguros;52.58;9.02;2.06;5.8;22.8;33.2;11.06;55.72;45.09;INCLUIR;Seguradora diversificada (auto, saúde, banco), ROE 22,8% e P/L 9,0
+CYRE3;Cyrela;Construção civil;32.65;n/d;n/d;n/d;n/d;n/d;n/d;n/d;n/d;EXCLUIR;Construtora: alto beta a juros e ao ciclo; não é perfil defensivo para R$5 mil
+CYRE4;Cyrela (PN);Construção civil;30.70;n/d;n/d;n/d;n/d;n/d;n/d;n/d;n/d;EXCLUIR;Duplicidade da CYRE3 e liquidez baixa
+CMIN3;CSN Mineração;Mineração;4.95;n/d;n/d;n/d;n/d;n/d;n/d;n/d;n/d;EXCLUIR;Commodity de minério, lucro cíclico e dependente da China; fora do perfil de qualidade
+CURY3;Cury;Construção civil;31.54;n/d;n/d;n/d;n/d;n/d;n/d;n/d;n/d;EXCLUIR;Construtora de baixa renda, alto beta a juros e ao ciclo
+DIRR3;Direcional;Construção civil;10.80;n/d;n/d;n/d;n/d;n/d;n/d;n/d;n/d;EXCLUIR;Construtora, cíclica e sensível a juros
+JHSF3;JHSF;Construção civil;13.56;n/d;n/d;n/d;n/d;n/d;n/d;n/d;n/d;EXCLUIR;Imobiliária de nicho, baixa liquidez e receita concentrada em poucos empreendimentos
+EZTC3;EZ TEC;Construção civil;18.15;n/d;n/d;n/d;n/d;n/d;n/d;n/d;n/d;EXCLUIR;Construtora pequena, baixa liquidez e alto beta a juros
+POMO4;Marcopolo;Bens de capital;4.67;n/d;n/d;n/d;n/d;n/d;n/d;n/d;n/d;EXCLUIR;Cíclica, exposta a crédito e transporte, e com baixa liquidez
+LEVE3;Mahle Metal Leve;Autopeças;37.81;n/d;n/d;n/d;n/d;n/d;n/d;n/d;n/d;EXCLUIR;Autopeças, baixa liquidez e exposição ao ciclo industrial
+ABCB4;ABC Brasil;Bancos;28.89;n/d;n/d;n/d;n/d;n/d;n/d;n/d;n/d;EXCLUIR;Banco médio; sem vantagem clara frente a ITUB4/BBDC4 para uma carteira de R$5 mil
+INTB3;Intelbras;Eletrônicos;18.83;n/d;n/d;n/d;n/d;n/d;n/d;n/d;n/d;EXCLUIR;Baixa liquidez e exposição a importação/câmbio
+SAUD3;Bradsaúde;Saúde;15.47;n/d;n/d;n/d;n/d;n/d;n/d;16.57;10.39;EXCLUIR;Peso 0,23% no ETF, liquidez baixa e histórico curto como listada
+AUVP11;AUVP11 (cota do próprio ETF);ETF;153.15;n/d;n/d;n/d;n/d;n/d;n/d;153.91;102.01;EXCLUIR;Posição residual do próprio fundo (0,3%), sem tese para o investidor pessoa física
